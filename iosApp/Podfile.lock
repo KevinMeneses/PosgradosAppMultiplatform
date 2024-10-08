@@ -1,0 +1,24 @@
+PODS:
+  - composeApp (1.0):
+    - JWTDecode (= 3.2)
+  - JWTDecode (3.2.0)
+
+DEPENDENCIES:
+  - composeApp (from `../composeApp`)
+  - JWTDecode (~> 3.2)
+
+SPEC REPOS:
+  trunk:
+    - JWTDecode
+
+EXTERNAL SOURCES:
+  composeApp:
+    :path: "../composeApp"
+
+SPEC CHECKSUMS:
+  composeApp: 9b2bbde7edebeb4a4a057a79b3d21fd02b58da5b
+  JWTDecode: 7dae24cb9bf9b608eae61e5081029ec169bb5527
+
+PODFILE CHECKSUM: f258135d3c9338bad895fbd14b6702db8833ddf8
+
+COCOAPODS: 1.15.2
