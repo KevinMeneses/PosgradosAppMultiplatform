@@ -95,6 +95,11 @@ kotlin {
     }
 }
 
+composeCompiler {
+    stabilityConfigurationFile = rootProject.file("stability_config.conf")
+    //enableStrongSkippingMode = true
+}
+
 android {
     namespace = "com.meneses.posgrados_app_multiplatform"
     compileSdk = libs.versions.android.compileSdk.get().toInt()
